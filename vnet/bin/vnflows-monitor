@@ -346,7 +346,7 @@ end
 $ooo = "abc"
 $opts = Trollop::options do
   opt :count, "Number of iterations, 0 = keep going", :short => 'c', :default => 1
-  opt :head, "Show all lines", :short => 'h', :default => 0
+  opt :head, "Show top X lines", :shlort => 'h', :default => 0
   opt :diff, "Turn on diff mode", :short => 'd'
   opt :pretty, "Switch pretty mode", :short => 'p', :default => 1
   opt :time, "Time in seconds to pause between iterations", :short => 't', :default => 2
